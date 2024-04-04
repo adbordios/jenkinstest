@@ -22,10 +22,7 @@ pipeline {
             steps {
                 script {
                     sh """ssh -tt private << EOF
-                    sudo su - admin
                     whoami
-                    exit
-                    sleep 5
                     exit
                     << EOF
                     """
