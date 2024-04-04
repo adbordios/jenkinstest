@@ -26,6 +26,7 @@ pipeline {
                     whoami
                     exit
                     exit
+                    exit
                     << EOF
                     """
                 }
