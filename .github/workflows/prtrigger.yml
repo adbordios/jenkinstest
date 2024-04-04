@@ -16,5 +16,5 @@ jobs:
       with:
         url: "https://factually-close-doberman.ngrok-free.app"
         user: "arvin"
-        token: ${{ secrets.GITHUBTOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         job: "testpipeline"
