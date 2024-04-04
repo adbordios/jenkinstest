@@ -25,7 +25,7 @@ pipeline {
                     sudo su - admin
                     whoami
                     exit
-                    exit
+                    sleep 5
                     exit
                     << EOF
                     """
